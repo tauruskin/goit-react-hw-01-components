@@ -1,0 +1,33 @@
+.friend-list {
+  width: 500px;
+  margin: 0 auto 20px;
+  border-radius: 6px;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  -webkit-box-shadow: 3px 6px 13px 2px rgba(183, 189, 189, 1);
+  -moz-box-shadow: 3px 6px 13px 2px rgba(183, 189, 189, 1);
+  box-shadow: 3px 6px 13px 2px rgba(183, 189, 189, 1);
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: white;
+  align-items: center;
+  font-family: sans-serif;
+}
+.activ {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+.disactive {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+.avatar {
+  border-radius: 30px;
+}
