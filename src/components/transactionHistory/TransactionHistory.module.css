@@ -1,0 +1,19 @@
+.transaction-history {
+  width: 800px;
+  margin: 0 auto;
+}
+.transaction-head {
+  height: 50px;
+  background-color: #00bcd5;
+  color: white;
+  font-family: sans-serif;
+}
+.transaction-item {
+  height: 50px;
+  text-align: center;
+  color: #797d80;
+  text-transform: capitalize;
+}
+.transaction-item:nth-of-type(even) {
+  background-color: white;
+}
