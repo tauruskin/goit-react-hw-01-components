@@ -1,6 +1,9 @@
 import React from "react";
+import "./App.css";
 import user from "../assets/user.json";
 import Profile from "./profile/Profile";
+import Statistics from "./statistics/Statistics";
+import statisticalData from "../assets/statistical-data.json";
 
 const App = () => {
   return (
@@ -12,9 +15,7 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      {/* <Statistics title="Upload stats" stats={statisticalData} />
-      <FriendList friend={friends} />
-      <TransactionHistory items={items} /> */}
+      <Statistics title="Upload stats" stats={statisticalData} />
     </>
   );
 };
